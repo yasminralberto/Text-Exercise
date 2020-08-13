@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF12A0F24E4E762009C56BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12A0E24E4E762009C56BB /* AppDelegate.swift */; };
+		CCF12A1124E4E762009C56BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12A1024E4E762009C56BB /* SceneDelegate.swift */; };
+		CCF12A1324E4E762009C56BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12A1224E4E762009C56BB /* ViewController.swift */; };
+		CCF12A1624E4E762009C56BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF12A1424E4E762009C56BB /* Main.storyboard */; };
+		CCF12A1924E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCF12A1724E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.xcdatamodeld */; };
+		CCF12A1B24E4E765009C56BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF12A1A24E4E765009C56BB /* Assets.xcassets */; };
+		CCF12A1E24E4E765009C56BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF12A1C24E4E765009C56BB /* LaunchScreen.storyboard */; };
+		CCF12A2924E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12A2824E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests.swift */; };
+		CCF12A3424E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF12A3324E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests.swift */; };
+		CCF12A4224E4E7B5009C56BB /* Big Piano.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF12A4124E4E7B5009C56BB /* Big Piano.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF12A2524E4E765009C56BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF12A0324E4E762009C56BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF12A0A24E4E762009C56BB;
+			remoteInfo = Yasmin_A_Save2TextFile_Exercise;
+		};
+		CCF12A3024E4E765009C56BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF12A0324E4E762009C56BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF12A0A24E4E762009C56BB;
+			remoteInfo = Yasmin_A_Save2TextFile_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF12A0B24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yasmin_A_Save2TextFile_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF12A0E24E4E762009C56BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF12A1024E4E762009C56BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCF12A1224E4E762009C56BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF12A1524E4E762009C56BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF12A1824E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yasmin_A_Save2TextFile_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		CCF12A1A24E4E765009C56BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF12A1D24E4E765009C56BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF12A1F24E4E765009C56BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF12A2424E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yasmin_A_Save2TextFile_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF12A2824E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasmin_A_Save2TextFile_ExerciseTests.swift; sourceTree = "<group>"; };
+		CCF12A2A24E4E765009C56BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF12A2F24E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Yasmin_A_Save2TextFile_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF12A3324E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasmin_A_Save2TextFile_ExerciseUITests.swift; sourceTree = "<group>"; };
+		CCF12A3524E4E765009C56BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF12A4124E4E7B5009C56BB /* Big Piano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Big Piano.png"; path = "../../../../../Downloads/Big Piano.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF12A0824E4E762009C56BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF12A2124E4E765009C56BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF12A2C24E4E765009C56BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF12A0224E4E762009C56BB = {
+			isa = PBXGroup;
+			children = (
+				CCF12A0D24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise */,
+				CCF12A2724E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests */,
+				CCF12A3224E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests */,
+				CCF12A0C24E4E762009C56BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF12A0C24E4E762009C56BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF12A0B24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.app */,
+				CCF12A2424E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests.xctest */,
+				CCF12A2F24E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF12A0D24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				CCF12A0E24E4E762009C56BB /* AppDelegate.swift */,
+				CCF12A1024E4E762009C56BB /* SceneDelegate.swift */,
+				CCF12A1224E4E762009C56BB /* ViewController.swift */,
+				CCF12A1424E4E762009C56BB /* Main.storyboard */,
+				CCF12A4124E4E7B5009C56BB /* Big Piano.png */,
+				CCF12A1A24E4E765009C56BB /* Assets.xcassets */,
+				CCF12A1C24E4E765009C56BB /* LaunchScreen.storyboard */,
+				CCF12A1F24E4E765009C56BB /* Info.plist */,
+				CCF12A1724E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.xcdatamodeld */,
+			);
+			path = Yasmin_A_Save2TextFile_Exercise;
+			sourceTree = "<group>";
+		};
+		CCF12A2724E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF12A2824E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests.swift */,
+				CCF12A2A24E4E765009C56BB /* Info.plist */,
+			);
+			path = Yasmin_A_Save2TextFile_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		CCF12A3224E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF12A3324E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests.swift */,
+				CCF12A3524E4E765009C56BB /* Info.plist */,
+			);
+			path = Yasmin_A_Save2TextFile_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF12A0A24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF12A3824E4E765009C56BB /* Build configuration list for PBXNativeTarget "Yasmin_A_Save2TextFile_Exercise" */;
+			buildPhases = (
+				CCF12A0724E4E762009C56BB /* Sources */,
+				CCF12A0824E4E762009C56BB /* Frameworks */,
+				CCF12A0924E4E762009C56BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yasmin_A_Save2TextFile_Exercise;
+			productName = Yasmin_A_Save2TextFile_Exercise;
+			productReference = CCF12A0B24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF12A2324E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF12A3B24E4E765009C56BB /* Build configuration list for PBXNativeTarget "Yasmin_A_Save2TextFile_ExerciseTests" */;
+			buildPhases = (
+				CCF12A2024E4E765009C56BB /* Sources */,
+				CCF12A2124E4E765009C56BB /* Frameworks */,
+				CCF12A2224E4E765009C56BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF12A2624E4E765009C56BB /* PBXTargetDependency */,
+			);
+			name = Yasmin_A_Save2TextFile_ExerciseTests;
+			productName = Yasmin_A_Save2TextFile_ExerciseTests;
+			productReference = CCF12A2424E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF12A2E24E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF12A3E24E4E765009C56BB /* Build configuration list for PBXNativeTarget "Yasmin_A_Save2TextFile_ExerciseUITests" */;
+			buildPhases = (
+				CCF12A2B24E4E765009C56BB /* Sources */,
+				CCF12A2C24E4E765009C56BB /* Frameworks */,
+				CCF12A2D24E4E765009C56BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF12A3124E4E765009C56BB /* PBXTargetDependency */,
+			);
+			name = Yasmin_A_Save2TextFile_ExerciseUITests;
+			productName = Yasmin_A_Save2TextFile_ExerciseUITests;
+			productReference = CCF12A2F24E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF12A0324E4E762009C56BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Yasmin Alberto Ruiz";
+				TargetAttributes = {
+					CCF12A0A24E4E762009C56BB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CCF12A2324E4E765009C56BB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCF12A0A24E4E762009C56BB;
+					};
+					CCF12A2E24E4E765009C56BB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCF12A0A24E4E762009C56BB;
+					};
+				};
+			};
+			buildConfigurationList = CCF12A0624E4E762009C56BB /* Build configuration list for PBXProject "Yasmin_A_Save2TextFile_Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF12A0224E4E762009C56BB;
+			productRefGroup = CCF12A0C24E4E762009C56BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF12A0A24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise */,
+				CCF12A2324E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests */,
+				CCF12A2E24E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF12A0924E4E762009C56BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF12A1E24E4E765009C56BB /* LaunchScreen.storyboard in Resources */,
+				CCF12A4224E4E7B5009C56BB /* Big Piano.png in Resources */,
+				CCF12A1B24E4E765009C56BB /* Assets.xcassets in Resources */,
+				CCF12A1624E4E762009C56BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF12A2224E4E765009C56BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF12A2D24E4E765009C56BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF12A0724E4E762009C56BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF12A1324E4E762009C56BB /* ViewController.swift in Sources */,
+				CCF12A1924E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.xcdatamodeld in Sources */,
+				CCF12A0F24E4E762009C56BB /* AppDelegate.swift in Sources */,
+				CCF12A1124E4E762009C56BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF12A2024E4E765009C56BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF12A2924E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF12A2B24E4E765009C56BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF12A3424E4E765009C56BB /* Yasmin_A_Save2TextFile_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF12A2624E4E765009C56BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF12A0A24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise */;
+			targetProxy = CCF12A2524E4E765009C56BB /* PBXContainerItemProxy */;
+		};
+		CCF12A3124E4E765009C56BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF12A0A24E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise */;
+			targetProxy = CCF12A3024E4E765009C56BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF12A1424E4E762009C56BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF12A1524E4E762009C56BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF12A1C24E4E765009C56BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF12A1D24E4E765009C56BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF12A3624E4E765009C56BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF12A3724E4E765009C56BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF12A3924E4E765009C56BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_Save2TextFile_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-Save2TextFile-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF12A3A24E4E765009C56BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_Save2TextFile_Exercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-Save2TextFile-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCF12A3C24E4E765009C56BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_Save2TextFile_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-Save2TextFile-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yasmin_A_Save2TextFile_Exercise.app/Yasmin_A_Save2TextFile_Exercise";
+			};
+			name = Debug;
+		};
+		CCF12A3D24E4E765009C56BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_Save2TextFile_ExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-Save2TextFile-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yasmin_A_Save2TextFile_Exercise.app/Yasmin_A_Save2TextFile_Exercise";
+			};
+			name = Release;
+		};
+		CCF12A3F24E4E765009C56BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_Save2TextFile_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-Save2TextFile-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yasmin_A_Save2TextFile_Exercise;
+			};
+			name = Debug;
+		};
+		CCF12A4024E4E765009C56BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yasmin_A_Save2TextFile_ExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Works.Yasmin-A-Save2TextFile-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yasmin_A_Save2TextFile_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF12A0624E4E762009C56BB /* Build configuration list for PBXProject "Yasmin_A_Save2TextFile_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF12A3624E4E765009C56BB /* Debug */,
+				CCF12A3724E4E765009C56BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF12A3824E4E765009C56BB /* Build configuration list for PBXNativeTarget "Yasmin_A_Save2TextFile_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF12A3924E4E765009C56BB /* Debug */,
+				CCF12A3A24E4E765009C56BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF12A3B24E4E765009C56BB /* Build configuration list for PBXNativeTarget "Yasmin_A_Save2TextFile_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF12A3C24E4E765009C56BB /* Debug */,
+				CCF12A3D24E4E765009C56BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF12A3E24E4E765009C56BB /* Build configuration list for PBXNativeTarget "Yasmin_A_Save2TextFile_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF12A3F24E4E765009C56BB /* Debug */,
+				CCF12A4024E4E765009C56BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCF12A1724E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCF12A1824E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.xcdatamodel */,
+			);
+			currentVersion = CCF12A1824E4E762009C56BB /* Yasmin_A_Save2TextFile_Exercise.xcdatamodel */;
+			path = Yasmin_A_Save2TextFile_Exercise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCF12A0324E4E762009C56BB /* Project object */;
+}
